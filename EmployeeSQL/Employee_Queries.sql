@@ -34,27 +34,3 @@ select first_name, last_name, sex
 from employees 
 where first_name = 'Hercules' AND last_name like 'B%';
 
---List all employees in the Sales department, including their employee number, last name, first name, and department name.
-
-select e.emp_no, e.last_name, e.first_name, d.dept_name
-from employees as e
-	join dept_emp as de
-	on (e.emp_no = de.emp_no)
-		join departments as d
-		on (de.dept_no = d.dept_no)
-		where dept_name = 'Sales'
-;
-
-select e.emp_no, e.last_name, e.first_name, d.dept_name
-from employees as e
-	join dept_emp as de
-	on (e.emp_no = de.emp_no)
-		join departments as d
-		on (de.dept_no = d.dept_no)
-		where dept_name = 'Sales' or dept_name = 'Development'
-;
-
-select last_name, count(last_name) as "Last Name Count"
-from employees
-group by last_name
-order by "Last Name Count" desc;
