@@ -9,3 +9,4 @@ In this assignment, you will design the tables to hold data in the CSVs, import 
 * Data Engineering
 
 * Data Analysis
+![Summary](https://github.com/KGore12/sql-challenge/blob/main/images/QuickDBD-Employee-SQL.png)
