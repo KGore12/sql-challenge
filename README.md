@@ -9,7 +9,7 @@ It is a beautiful spring day, and it is two weeks since you have been hired as a
 <br><br>
 https://app.quickdatabasediagrams.com/#/d/6j5qmK
 <br><br>
-![Summary](https://github.com/KGore12/sql-challenge/blob/main/images/QuickDBD-Employee-SQL_DBD.png)
+![Summary](https://github.com/KGore12/sql-challenge/blob/master/images/QuickDBD-Employee-SQL_DBD.png)
 <br><br>
 * Used information from the CSV files to create a table schema.
 <br><br>
