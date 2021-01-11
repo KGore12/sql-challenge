@@ -9,9 +9,9 @@ In this assignment, you will design the tables to hold data in the CSVs, import 
 * Data Engineering
 
 * Data Analysis
-
-**_ERD Diagram_**
 <br><br>
+**_ERD Diagram_**
+
 * Used QuickDBD to create the ERD of the tables.
 <br><br>
 https://app.quickdatabasediagrams.com/#/d/6j5qmK
