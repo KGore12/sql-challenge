@@ -10,7 +10,7 @@ In this assignment, you will design the tables to hold data in the CSVs, import 
 
 * Data Analysis
 <br><br>
-**_ERD Diagram_**
+## **_ERD Diagram_**
 
 * Used QuickDBD to create the ERD of the tables.
 <br><br>
@@ -19,12 +19,12 @@ https://app.quickdatabasediagrams.com/#/d/6j5qmK
 ![Summary](https://github.com/KGore12/sql-challenge/blob/master/images/QuickDBD-Employee-SQL_DBD.png)
 <br><br>
 
-**_Used information from the CSV files to create a table schema._**
+## **_Used information from the CSV files to create a table schema._**
 <br><br>
 ![Summary](https://github.com/KGore12/sql-challenge/blob/master/images/create_tables.png)
 <br><br>
 
-**_Created queries to do the following:_**
+## **_Created queries to do the following:_**
 1. List the following details of each employee: employee number, last name, first name, sex, and salary.
 
 2. List first name, last name, and hire date for employees who were hired in 1986.
