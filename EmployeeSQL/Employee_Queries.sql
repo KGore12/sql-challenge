@@ -54,3 +54,7 @@ from employees as e
 		where dept_name = 'Sales' or dept_name = 'Development'
 ;
 
+select last_name, count(last_name) as "Last Name Count"
+from employees
+group by last_name
+order by "Last Name Count" desc;
