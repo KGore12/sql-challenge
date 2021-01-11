@@ -51,3 +51,21 @@ CREATE TABLE Title (
         TitleID
      )
 );
+
+--Note 1. When importing data please import Employee and then Department table first because of foreign key constraint
+     --2. When importing data for salary table remove salaryid column as it is auto generating value column 
+
+ALTER TABLE Dep_Emp ADD CONSTRAINT fk_Dep_Emp_DepartmentID FOREIGN KEY(DepartmentID)
+REFERENCES Departments (DepartmentID);
+
+ALTER TABLE Dep_Emp ADD CONSTRAINT fk_Dep_Emp_EmployeeID FOREIGN KEY(EmployeeID)
+REFERENCES Employee (EmployeeID);
+
+ALTER TABLE Salaries ADD CONSTRAINT fk_Salaries_EmployeeID FOREIGN KEY(EmployeeID)
+REFERENCES Employee (EmployeeID);
+
+ALTER TABLE DepartmentManager ADD CONSTRAINT fk_DepartmentManager_EmployeeID FOREIGN KEY(EmployeeID)
+REFERENCES Employee (EmployeeID);
+
+ALTER TABLE DepartmentManager ADD CONSTRAINT fk_DepartmentManager_DepartmentID FOREIGN KEY(DepartmentID)
+REFERENCES Departments (DepartmentID);
