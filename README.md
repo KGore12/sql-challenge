@@ -13,8 +13,8 @@ https://app.quickdatabasediagrams.com/#/d/6j5qmK
 <br><br>
 * Used information from the CSV files to create a table schema.
 <br><br>
-![Summary](https://github.com/KGore12/sql-challenge/blob/main/images/create_tables.png)
+![Summary](https://github.com/KGore12/sql-challenge/blob/master/images/create_tables.png)
 <br><br>
 <br><br>
 * Data Analysis
-![Summary](https://github.com/KGore12/sql-challenge/blob/main/images/QuickDBD-Employee-SQL_DBD.png)
+![Summary](https://github.com/KGore12/sql-challenge/blob/master/images/QuickDBD-Employee-SQL_DBD.png)
